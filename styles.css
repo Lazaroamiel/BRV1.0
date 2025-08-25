@@ -607,4 +607,9 @@ header{
 /* El panel móvil ya usa --header-h como top; lo reafirmamos */
 @media (max-width: 768px){
   header .navBar{ top: var(--header-h); }
+
+}
+
+footer {
+   text-align: center;
 }
